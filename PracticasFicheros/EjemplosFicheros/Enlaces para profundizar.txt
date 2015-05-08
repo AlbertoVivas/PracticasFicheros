@@ -1,0 +1,8 @@
+¿Qué es realmente equals?
+
+http://www.ibm.com/developerworks/library/j-jtp05273/
+
+Última versión de la documentación oficial de JAVA
+
+https://docs.oracle.com/javase/tutorial/tutorialLearningPaths.html
+
