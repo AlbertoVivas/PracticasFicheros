@@ -175,6 +175,10 @@ import java.util.Arrays;
 			System.out.println(prueba);
 			System.out.println(procesarLinea(prueba));
 			
+			
+			br = abrirYPrepararFichero("emails prueba.txt");
+			
+			
 		}
 		
 	}
