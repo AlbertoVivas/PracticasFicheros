@@ -157,12 +157,12 @@ import java.util.Arrays;
 		 * */
 		
 		public static void main(String[] args) throws IOException {
+			long t0 = System.currentTimeMillis();
 			
-			String nombre = "emails.txt";//el nombre del fichero de entrada
+			String nombre = "emails prueba.txt";//el nombre del fichero de entrada
 			String lista_mails = null; //aquí guardaré los mails, separados por la el símbolo /
 			String [] array_mails = null; //aquí guardaer los mails, cada uno en su posición!
 			BufferedReader br = null; // Objeto para leer un fichero de texto por líneas!
-			
 					
 			br = abrirYPrepararFichero(nombre);
 			lista_mails = obtenerEmails(br);
@@ -171,13 +171,17 @@ import java.util.Arrays;
 			ordenarMails (array_mails); // Este método es opcional, aunque luego veremos que es muy fácil de hacer!
 			mostrarMails(array_mails);
 			
-			String prueba = "asdfasdfvbasbdvasdckjasdcf***caca@kk.com///sadhfgbasbflasbdfasdfkjasdfkjasfba";
-			System.out.println(prueba);
-			System.out.println(procesarLinea(prueba));
+			long t1 = System.currentTimeMillis();
+			System.out.println(t1-t0);
 			
-			
-			br = abrirYPrepararFichero("emails prueba.txt");
-			
+			t0 = System.currentTimeMillis();
+			int i =0;
+			//double i =0;
+			while (i!=-1){
+				i++;
+			}
+			t1 = System.currentTimeMillis();
+			System.out.println(t1-t0);
 			
 		}
 		

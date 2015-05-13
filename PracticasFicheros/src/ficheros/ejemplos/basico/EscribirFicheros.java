@@ -249,10 +249,10 @@ public class EscribirFicheros {
 			fichero.MostrarFichero("caca.txt");
 			
 			System.out.println("BIN!!!");
+			
 			fichero.LeerFicheroBin("caca.txt");
 			
 			fichero.CopiarFicheroBin("java.pdf");
-			
 			
 			
 			
